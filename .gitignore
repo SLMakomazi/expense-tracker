@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+.env
+
+# Build
+frontend/build/
+frontend/dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+tests/selenium/*.log
+tests/k6/*.log
